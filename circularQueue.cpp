@@ -130,6 +130,18 @@ int main() {
             {
                 return 0;
             }
+            default:
+            {
+                cout << "Invalid option, please choose between 1 and 4.\n";
+                break;
+            }
+            }
+        }
+        catch (exception &e)
+        {
+            cout << "Check for the value entered." << endl;
         }
     }
+
+    return 0;
 }
